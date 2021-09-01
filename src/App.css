@@ -57,7 +57,7 @@ input {
 .section {
     width: 500px;
     height: 500px;
-    background-color: paleturquoise;
+    background-color: #d1edf2;
     border-radius: 20px;
     display: block;
     margin: 0 auto;
