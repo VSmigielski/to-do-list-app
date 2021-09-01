@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    cursor: default;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 6px 7px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    padding: 1px 2px;
+    border: 1px solid black;
+    border-image: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    width: 500px;
+    height: 500px;
+    background-color: paleturquoise;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.todolist {
+    margin-left: 15px;
+    padding: 15px 0px 10px 0px;
+}
+
+.left-to-do {
+    margin-left: 15px;
+    padding-top: 5px;
+}
